@@ -1,0 +1,46 @@
+
+header{
+  background-color: #07E7F5;
+  padding: 2%;
+  margin: 1%;
+  border: 2px solid #000405;
+ text-align: center;
+ text-shadow: 3px 2px 2px #000405;
+ font-size: 30px;
+ box-shadow: 2px 2px 2px #000405;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.parent section{
+  width: 95%;
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 0.5%;
+  background-color: #07E7F5;
+
+}
+section{
+  width: 96%;
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  background-color: #07E7F5;
+}
+input,select{
+  width: 95%;
+  margin: 0.5%;
+  padding: 0.5%;
+  font-size: 36px;
+}
+h2{
+  text-align: center;
+}
+@media only screen and (min_width:320px) and (max_width:480px){
+
+}
+@media only screen and (min_width:481px) and (max_width:769px){
+
+}
